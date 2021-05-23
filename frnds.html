@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<link href="scrap.css" rel="stylesheet" type="text/css">
+	<link href="scrap.js" rel="stylesheet" type="text/js">
+
+
+
+   
+    <script src=
+"https://code.jquery.com/jquery-3.4.1.min.js">
+    </script>
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+<div class="navbar" style="margin-bottom: 40px">
+
+
+  <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+ 
+  <a href="scrap.html"><i class="fa fa-fw fa-dashboard"></i> dashboard</a>
+
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+
+    <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+
+  <a href="homepage.html" ><i class="fa fa-fw fa-sign-out"></i> logout</a>
+
+</div>
+
+<div><form>
+ <label for="fname">upload you picture:-</label>
+
+  <textarea id="autoresizing">
+        Try cutting, pasting or typing here
+    </textarea>
+     
+    <script type="text/javascript">
+        $('#autoresizing').on('input', function () {
+            this.style.height = 'auto';
+             
+            this.style.height =
+                    (this.scrollHeight) + 'px';
+        });
+    </script>
+
+</form></div>
+
+</body></html>

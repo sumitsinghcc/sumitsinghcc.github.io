@@ -1,0 +1,257 @@
+body{
+  background:url(https://static8.depositphotos.com/1003860/932/i/950/depositphotos_9322598-stock-photo-dirty-scrapbook-template-design-background.jpg);
+
+}
+
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #cc0066;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color:#4d0026;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 120px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 80px;
+  background-color: #cc7a00;
+}
+
+#blog {
+  top: 140px;
+  background-color: #009900; /* Blue */
+}
+
+#projects {
+  top: 200px;
+  background-color: #00b3b3; /* Red */
+}
+
+#contact {
+  top: 260px;
+  background-color:#204060; /* Light Black */
+}
+#run{
+  top: 320px;
+  background-color:#cc33ff;
+}
+
+#sumit {
+  top: 380px;
+  background-color: #ff0066;
+}
+
+#ankur {
+  top: 440px;
+  background-color: turquoise ; /* Blue */
+}
+
+#saurav{
+  top: 500px;
+  background-color: #bf8040; /* Red */
+}
+
+#sonu {
+  top: 560px;
+  background-color:#ff0000; /* Light Black */
+}
+#monu{
+  top: 620px;
+  background-color:#888844;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rightSidenav a {
+  position:absolute; /* Position them relative to the browser window */
+  right: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 120px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  text-align: right;
+}
+
+
+
+#rightSidenav a:hover {
+  right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#a {
+  top: 80px;
+  background-color: #cc7a00;
+}
+
+#b {
+  top: 140px;
+  background-color: #009900; /* Blue */
+}
+
+#c {
+  top: 200px;
+  background-color: #00b3b3; /* Red */
+}
+
+#d {
+  top: 260px;
+  background-color:#204060; /* Light Black */
+}
+#e{
+  top: 320px;
+  background-color:#cc33ff;
+}
+
+#f {
+  top: 380px;
+  background-color: #ff0066;
+}
+
+#g {
+  top: 440px;
+  background-color: turquoise ; /* Blue */
+}
+
+#h{
+  top: 500px;
+  background-color: #bf8040; /* Red */
+}
+
+#i {
+  top: 560px;
+  background-color:#ff0000; /* Light Black */
+}
+#j{
+  top: 620px;
+  background-color:#888844;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
