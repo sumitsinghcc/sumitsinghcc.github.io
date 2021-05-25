@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Friendsbook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="homepage.css" type="text/css">
+
+</head>
+<body style="background: url(https://cdn.pixabay.com/photo/2017/01/08/13/24/scrapbook-1962913_1280.jpg);">
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary " style="width: 100%;overflow: hidden; background-color: #ff00ff;"> 
+      <!-- padding is used for spacing -->
+      
+      <a class="item1" href="homepage.html">    
+      <img class="navbar-brand " src="logo.png"  class="d-inline-block align-top" alt="MyChakra" />
+      </a>
+      </p>
+      <span class="item2" style="font-size: 40px; font-family: Georgia, 'Times New Roman', Times, serif; color:#b3d9ff; margin: 10px;">Freindsbook</span>
+      
+      <div class="rightheader" >
+      <input 
+      type="text" class="item3 " placeholder="username" style="margin-right: 1%;height: 29px;border-radius: 5px;color: black;">
+      
+      <input
+       type="text" class="item4" placeholder="password" style="margin-right: 1%;height: 29px;border-radius: 5px;border-color: white;color: black;">
+      <a  href="home.html" ><button type="button" class="btn btn-info" >Login</button></a>
+      </div>
+    </nav>
+    
+    
+    
+     <div class="grid-container" >
+     <div class="grid-item1" >
+       <div class="jumbotron" style="text-align: center; background: url(https://storage.needpix.com/rsynced_images/background-1877688_1280.jpg);   color:  #7700b3; ">
+          <h1>Its Time To Remember Our Memories</h1>
+          <h4 style="text-align: center;color: black;">Just <a href="#signup">Register</a> and Start</h4>
+          <h5>Already have an account?<a href="#signin"> Login</a></h5>
+        </div>
+     </div>
+
+     <div class="grid-item3" id="signin">
+      <form >
+        <div class="form-group">
+          <label for="text">Username</label>
+          <input type="text" class="form-control" >
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+       
+        <button type="submit" class="btn btn-primary" style="color: rgb(247, 239, 239);"><a href="home.html" style="color: white;">Signin</a></button>
+    
+      </form>
+     </div>
+
+
+
+     <div class="grid-item2" id="signup">
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="text">Username</label>
+          <input type="text" class="form-control" >
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" >
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </form>
+     </div>
+     </div>
+
+<!-- 
+  <div class="footer" style="position: fixed;left: 0;bottom: 0;width: 100%;height: 50px;background-color: rgb(53, 114, 133);text-align: center;">
+    Footer here!!
+</div> -->
+
+</body>
+</html>
