@@ -54,7 +54,7 @@ input{
   color:black;
     border: 1px solid #ccc;
   
-  font-size:25px;
+  font-size:20px;
   padding: 1px 3px;
 width: 300px;
  height: 45px;
@@ -62,7 +62,7 @@ width: 300px;
 }
 
 label {
-  font-size: 30px;
+  font-size: 20px;
   color: green;
   font-weight:bold;
 }
