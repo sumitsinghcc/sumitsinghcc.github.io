@@ -1,0 +1,114 @@
+body{
+	background: url(https://cdn.pixabay.com/photo/2017/02/24/11/16/scrapbook-2094476_1280.jpg);
+	background-repeat:repeat;
+	background-size:all;
+}
+
+  textarea {
+  border-style:outset;
+  background-color: #ffbf80;
+  border-radius: 10px;
+text-align:left;
+  color: black;
+    border: 1px solid #ccc;
+  
+   font-family:Copperplate, Papyrus, fantasy; 
+  font-size:30px;
+  padding: 1px 6px;width: 600px; height: 70px;
+  
+
+
+}
+textarea:focus {
+  border-color: red;
+}
+
+label {
+	font-size: 30px;
+  color: #660066;
+  font-weight:bold;
+}
+
+li{
+  font-size: 30px;
+}
+
+input{
+  font-size:70px;
+   font-family:Copperplate, Papyrus, fantasy;
+    background-color:#ffcc00;
+     color:#cc7a00;
+     padding-left:250px;
+      margin-left: 10%;
+     margin-right:10%;
+   }
+
+
+@media screen and (max-width:500px){
+  textarea {
+  border-style:outset;
+ background-color: #ffbf80;
+  border-radius: 5px;
+
+  text-align:left;
+  color:black;
+    border: 1px solid #ccc;
+  
+  font-size:25px;
+  padding: 1px 3px;
+width: 300px;
+ height: 45px;
+
+}
+
+label {
+  font-size: 30px;
+  color: green;
+  font-weight:bold;
+}
+li{
+  font-size: 25px;
+}
+input{
+  font-size:30px;
+   font-family:Copperplate, Papyrus, fantasy;
+    background-color:#ffcc00;
+     color:#cc7a00;
+    width: 100%;
+      padding: 1% 1% 1% 1%;
+      margin:0;
+
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
