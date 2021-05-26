@@ -9,7 +9,7 @@ body{
   background-color: #ffbf80;
   border-radius: 10px;
 text-align:left;
-  color: black;
+  color: violet;
     border: 1px solid #ccc;
   
    font-family:Copperplate, Papyrus, fantasy; 
@@ -48,11 +48,11 @@ input{
 @media screen and (max-width:500px){
   textarea {
   border-style:outset;
- background-color: #ffbf80;
+ background-color:red;
   border-radius: 5px;
 
   text-align:left;
-  color:black;
+  color:violet;
     border: 1px solid #ccc;
   
   font-size:20px;
@@ -61,7 +61,9 @@ width: 300px;
  height: 45px;
 
 }
-
+text:focus{
+border-color: red;
+}
 label {
   font-size: 20px;
   color: green;
