@@ -20,7 +20,8 @@ text-align:left;
 
 }
 textarea:focus {
-  border-color: red;
+  border-color: black;
+;
 }
 
 label {
@@ -48,7 +49,7 @@ input{
 @media screen and (max-width:500px){
   textarea {
   border-style:outset;
- background-color:red;
+ background-color:light-orange;
   border-radius: 5px;
 
   text-align:left;
